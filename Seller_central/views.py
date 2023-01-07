@@ -6,6 +6,8 @@ from .models import *
 def index(request):
     return render(request,'User_registration.html')
 
+def signin(request):
+    pass
 @csrf_exempt
 def register(request):
 
